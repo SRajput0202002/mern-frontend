@@ -29,6 +29,7 @@ export const Registration = () => {
       [name]: value,
     });
   };
+
   //handling the form submission
 
   const handleSubmit = async (e) => {

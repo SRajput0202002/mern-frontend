@@ -23,6 +23,7 @@ export const Error = () => {
               <button>contact admin</button>
             </NavLink>
             <br />
+
             <br />
           </div>
         </div>
