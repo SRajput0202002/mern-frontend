@@ -1,0 +1,53 @@
+/* service.css */
+
+.section-services {
+  margin-top: 10px; /* Adjust margin as needed */
+}
+
+
+
+.main-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-three-cols {
+  grid-template-columns: repeat(
+    3,
+    1fr
+  ); /* Adjust number of columns as needed */
+  gap: 20px; /* Adjust gap between grid items as needed */
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.card-img img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card-details {
+  margin-top: 10px;
+}
+
+.grid-two-cols {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card-details p {
+  margin: 0;
+}
+
+.card-details h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
